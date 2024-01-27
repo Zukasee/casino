@@ -1,0 +1,16 @@
+.animationItem {
+    opacity: 0;
+}
+.animationItem-enter {
+    opacity: 1;
+}
+.animationItem-enter-active {
+    transform: translateX(-50%) translateY(-86%);
+    transition: transform 1300ms;
+}
+.animationItem-exit-active {
+    opacity: 0;
+}
+.animationItem-exit-done {
+    opacity: 0;
+}

@@ -1,0 +1,40 @@
+.gamblingWindows {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0;
+}
+
+.gamblingWindowsItem{
+    width: 50px;
+    height: 50px;
+    margin: 0 6px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.gamblingWindowsItemList {
+    position: absolute;
+    top: 0px;
+    left: 50%;
+    transform: translateX(-50%);    
+}
+
+.gamblingWindowsItemListItem {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.decrement, .increment {
+    height: 20px;
+    width: 20px;
+    margin: 5px 15px;
+    
+}
